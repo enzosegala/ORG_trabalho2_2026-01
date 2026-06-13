@@ -1,0 +1,14 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define GRID_WIDTH 128
+#define GRID_HEIGHT 128
+
+#define MAX_OPEN_NODES (GRID_WIDTH * GRID_HEIGHT)
+
+#define USE_DIAGONALS 1
+#define HEURISTIC_WEIGHT 1.0f
+#define OBSTACLE_PERCENT 20
+#define RANDOM_SEED 42
+
+#endif
