@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -5,7 +6,7 @@
 /* -------------------------------------------------- */
 /* Constantes e limites                               */
 /* -------------------------------------------------- */
-#define MAX_NOS 5000
+#define MAX_NOS 1500
 #define MAX_ARESTAS 16
 #define INFINITO   1e30f    /* Representa "custo desconhecido"   */
 #define NENHUM      -1      /* Sentinela: "nó inexistente"       */
@@ -226,7 +227,7 @@ int main(void)
     gerar_grafo_grande();
 
     volatile int resultado = 0;
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i <5; i++)
     {
         resultado += astar(
             (i * 137) % MAX_NOS,
